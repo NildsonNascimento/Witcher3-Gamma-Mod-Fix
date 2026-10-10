@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  modGamma - Gamma/Brilho no menu de Opcoes (The Witcher 3 1.32 Classic)
+  Mesmo mecanismo da versao 5.0: grupo sem condicao de visibilidade,
+  controlando a variavel Visuals/GammaValue (slider 0.1 a 1.9).
+  Na 1.32 o grupo original "Visuals" so aparece com PreserveSystemGamma desligado E em tela cheia.
+-->
+<UserConfig>
+
+	<Group id="ModGamma" displayName="video.gamma">
+		<VisibleVars>
+			<Var overrideGroup="Visuals" id="GammaValue" displayName="gamma" displayType="GAMMA;1.0;3.9;90" tags="nonLocalized"/>
+		</VisibleVars>
+	</Group>
+
+</UserConfig>
